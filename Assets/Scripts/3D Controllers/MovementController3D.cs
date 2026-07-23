@@ -11,7 +11,8 @@ using UnityEngine.InputSystem;
 /// </summary>
 [RequireComponent(typeof(CharacterController))]
 public class MovementController3D : MonoBehaviour
-{
+{   
+   
     [Header("Movement")]
     [SerializeField] private float speed = 5f;
     [Header("Jumping")]
@@ -57,8 +58,8 @@ public class MovementController3D : MonoBehaviour
 
         if (releaseMouse)
         {
-            //Cursor.lockState = CursorLockMode.Locked;
-            //Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
         }
     }
 
