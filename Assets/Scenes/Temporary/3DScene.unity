@@ -889,7 +889,7 @@ GameObject:
   - component: {fileID: 569439590}
   - component: {fileID: 569439589}
   - component: {fileID: 569439588}
-  - component: {fileID: 569439592}
+  - component: {fileID: 569439593}
   m_Layer: 0
   m_Name: InteractablCube
   m_TagString: Untagged
@@ -987,10 +987,11 @@ Transform:
   m_LocalPosition: {x: -0.11923, y: 1.03, z: 6.18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 905064033}
   m_Father: {fileID: 2062455415}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &569439592
+--- !u!114 &569439593
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -999,9 +1000,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 569439587}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b5b2ad13441e934bad391e0263de375, type: 3}
+  m_Script: {fileID: 11500000, guid: f8eb9ad5b1d7ebf499dbe619ef2a65e7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DefaultInteract
+  m_EditorClassIdentifier: Assembly-CSharp::FocusInteract
+  focusPoint: {fileID: 905064033}
+  glideDuration: 0.6
+  targetCamera: {fileID: 1962040196}
+  movementController: {fileID: 556280412}
 --- !u!1 &726569263
 GameObject:
   m_ObjectHideFlags: 0
@@ -5847,6 +5852,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2062455415}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &905064032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 905064033}
+  m_Layer: 0
+  m_Name: FocusPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &905064033
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905064032}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.89}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 569439591}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1161358061
 GameObject:
   m_ObjectHideFlags: 0
