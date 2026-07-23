@@ -25,13 +25,13 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _DensityMultiplier: 0.11
+    - _DensityMultiplier: 0.27
     - _LightScattering: 1
     - _MaxDistance: 100
     - _NoiseOffset: 0
     - _StepSize: 0.1
     m_Colors:
-    - _Color: {r: 0.0037735105, g: 0.0037735105, b: 0.0037735105, a: 1}
+    - _Color: {r: 0.09433961, g: 0.09433961, b: 0.09433961, a: 1}
     - _LightContribution: {r: 0.13962269, g: 0.13962269, b: 0.13962269, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
