@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00030517578, y: -16.666698}
+  m_AnchoredPosition: {x: 0, y: -16.666687}
   m_SizeDelta: {x: -33.33259, y: -66.6666}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5145691852237585049
@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 1249879452, guid: f4e1410b02c20de6984f9d4e712b6be7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -209,7 +209,7 @@ GameObject:
   - component: {fileID: 8771797756143766430}
   - component: {fileID: 7454688548236329577}
   m_Layer: 5
-  m_Name: Window
+  m_Name: PopupCat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -235,8 +235,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -47.36792, y: 0}
-  m_SizeDelta: {x: 865.2642, y: 480}
+  m_AnchoredPosition: {x: 9.7, y: 2.2}
+  m_SizeDelta: {x: 600, y: 320}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &259018901507859793
 CanvasRenderer:
